@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Grocery List</h1>
+
+    <label>Add Item:</label>
+    <input type="text">
+    <button id="submit" onclick="addItem(this)">Submit</button>
+    <label for="colors"> View:</label>
+    <select name="sort" id="view" onchange="optionChange(this)">
+     <option value="all">All items</option>
+     <option value="unpurchased">Unpurchased items</option>
+     <option value="purchased">Purchased items</option>
+     </select>
+     <br>
+
+
+
+
+
+    <script src='home.js'></script>
+</body>
+</html>
